@@ -1,17 +1,17 @@
-# Rules
+# 规则
 
-This folder stores reusable operating rules for AI-assisted engineering work. Rules are short, durable instructions that should shape how an agent behaves across projects.
+这个文件夹存放 AI 辅助工程工作的通用规则。规则应该短、稳定、可执行，用来约束 agent 在不同项目里的行为。
 
-## Rule Index
+## 规则索引
 
-| Rule | Purpose |
+| 规则 | 用途 |
 |------|---------|
-| [`engineering-baseline.md`](./engineering-baseline.md) | Read first, preserve existing work, keep changes scoped. |
-| [`secrets-and-public-repos.md`](./secrets-and-public-repos.md) | Never publish live secrets; sanitize before committing. |
-| [`verification-before-done.md`](./verification-before-done.md) | Match verification depth to risk before reporting done. |
-| [`visual-review.md`](./visual-review.md) | Screenshot-review visual UI changes, especially webviews. |
-| [`git-and-artifacts.md`](./git-and-artifacts.md) | Commit/push safely and follow project artifact policy. |
+| [`工程基线/`](./工程基线/RULE.md) | 先读代码、保护已有改动、控制改动范围。 |
+| [`密钥与公开仓库/`](./密钥与公开仓库/RULE.md) | 不发布真实密钥，提交前必须脱敏。 |
+| [`完成前验证/`](./完成前验证/RULE.md) | 根据风险选择验证强度，验证后再说完成。 |
+| [`视觉审查/`](./视觉审查/RULE.md) | UI 视觉改动要截图 review，尤其是 webview。 |
+| [`Git与产物/`](./Git与产物/RULE.md) | 安全 commit/push，并遵守项目产物策略。 |
 
-## How To Use
+## 使用方式
 
-Copy relevant rules into a project-specific rule system, or ask the agent to read this folder before starting a task. Prefer small rules with concrete behavior over broad principles.
+每条规则都放在独立目录里，入口文件统一叫 `RULE.md`，和 `skills/*/SKILL.md` 的包装目录模式保持一致。把相关规则复制到具体项目的规则系统里，或者让 agent 在开始任务前读取这个文件夹。规则要尽量具体，少写空泛原则，多写可执行行为。
