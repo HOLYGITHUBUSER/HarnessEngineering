@@ -1,6 +1,6 @@
 # HarnessEngineering
 
-HarnessEngineering is a practical knowledge base for repeatable AI-assisted engineering workflows. It collects reusable workflows, rules, memories, and sanitized skills that help agents work more reliably across real projects.
+HarnessEngineering is a practical knowledge base for repeatable AI-assisted engineering workflows. It collects reusable workflows, rules, memories, skills, commands, and subagent definitions that help agents work more reliably across real projects.
 
 The repository focuses on concrete execution loops rather than abstract prompts: reading project context, planning changes, validating behavior, reviewing visual output, packaging artifacts, installing into real environments, and pushing verified results.
 
@@ -9,6 +9,8 @@ The repository focuses on concrete execution loops rather than abstract prompts:
 - `workflows/` — Step-by-step operating procedures for engineering tasks.
 - `rules/` — Persistent guidance and conventions for agents.
 - `skills/` — Reusable task-specific instructions, with secrets removed.
+- `commands/` — User-triggered command templates that point to workflows.
+- `subagents/` — Reusable specialized agent role definitions.
 - `memories/` — Lightweight contextual notes and reusable background knowledge.
 
 ## Current Workflows
