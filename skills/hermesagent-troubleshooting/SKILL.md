@@ -1,3 +1,8 @@
+---
+name: hermesagent-troubleshooting
+description: Troubleshooting guide for HermesAgent conversations, gateway health, provider routing, logs, and API checks. Use when HermesAgent chat or Web UI requests fail.
+---
+
 # HermesAgent 对话调试技能
 
 ## 项目信息

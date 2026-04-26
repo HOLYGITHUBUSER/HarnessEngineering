@@ -1,3 +1,8 @@
+---
+name: aicodee-api-template
+description: Sanitized aicodee API endpoint configuration template. Use when documenting or configuring an OpenAI-compatible aicodee endpoint without committing real keys, accounts, or passwords.
+---
+
 # aicodee API 配置信息
 
 ## API 基本信息

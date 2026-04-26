@@ -1,3 +1,8 @@
+---
+name: hermesagent-deployment
+description: Docker deployment baseline for HermesAgent and Hermes Web UI. Use when setting up, restarting, or locating configuration for a local HermesAgent deployment.
+---
+
 # HermesAgent 部署技能
 
 ## 项目信息

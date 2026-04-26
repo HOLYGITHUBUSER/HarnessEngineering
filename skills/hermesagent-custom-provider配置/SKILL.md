@@ -203,6 +203,6 @@ platforms:
 
 ## 相关文件
 
-- 部署基线：`../hermesagent-deployment-部署技能.md`
-- 调试命令参考：`../hermesagent-对话调试-troubleshooting.md`（注意：该文件末尾的"未解决"状态已过时，真正解法以本 skill 为准）
-- aicodee 账户信息：`../aicodee-api-配置信息.md`
+- 部署基线：`../hermesagent-deployment/SKILL.md`
+- 调试命令参考：`../hermesagent-troubleshooting/SKILL.md`（注意：该文件末尾的"未解决"状态已过时，真正解法以本 skill 为准）
+- aicodee 配置模板：`../aicodee-api/SKILL.md`
